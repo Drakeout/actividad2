@@ -1,0 +1,113 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(206, 206, 206);
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(43, 84, 136);
+    
+}
+
+.navbar li a {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: rgb(206, 206, 206);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: rgb(53, 105, 172);
+}
+
+.intro {
+    margin: 6% 5%;
+}
+
+.intro h1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.intro p {
+    text-align: justify;
+    line-height: 130%;
+}
+
+.canciones {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 2px 5%;
+}
+
+
+.canciones li a {
+    display: block;
+    color: rgb(241, 237, 237);
+    text-align: left;
+    padding: 20px 20px;
+    text-decoration: none;
+    background-color: rgb(146, 146, 146);
+}
+
+.canciones li a:hover {
+    background-color: rgb(53, 105, 172);
+}
+
+.videos {
+    padding: 3% 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.videos iframe{
+    width: 32%;
+    padding-bottom: 2%; 
+    margin-bottom: 2%;
+}
+
+.parrafo {
+    padding: 2%;
+    margin: 2%;
+    margin-bottom: 0%;
+}
+
+
+.formulario {
+    padding: 0% 2%;
+    margin: 0% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.formulario label {
+    margin: 2% 2%;
+}
+
+.formulario input{
+     height: 30px;
+}
+
+.submit{
+    margin: 2% 2%;
+    background-color:  rgb(53, 105, 172);
+    color: white;
+    height: 50px;
+}
